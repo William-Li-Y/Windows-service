@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.MicrosoftWay\\WinService.MicrosoftWay.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.TopshelfWay\\WinService.TopshelfWay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.MicrosoftWay\\WinService.MicrosoftWay.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.TopshelfWay\\WinService.TopshelfWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.MicrosoftWay\\WinService.MicrosoftWay.csproj",
-        "projectName": "WinService.MicrosoftWay",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.MicrosoftWay\\WinService.MicrosoftWay.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.TopshelfWay\\WinService.TopshelfWay.csproj",
+        "projectName": "WinService.TopshelfWay",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.TopshelfWay\\WinService.TopshelfWay.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.MicrosoftWay\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\WindowsServiceDemo\\WinService.TopshelfWay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.Windows.Compatibility": {
+            "Topshelf": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[4.2.1, )"
             }
           },
           "imports": [

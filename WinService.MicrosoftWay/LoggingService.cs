@@ -10,7 +10,6 @@ namespace WinService.MicrosoftWay
     {
         private const string _logFileLocation = @"C:\temp\servicelog.txt";
 
-
         private void Log(string message)
         {
             Directory.CreateDirectory(Path.GetDirectoryName(_logFileLocation));
